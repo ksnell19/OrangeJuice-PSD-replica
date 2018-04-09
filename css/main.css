@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #FE7E00;
+  padding: 10px 5px;
+}
+
+nav div {
+  display: inline-block;
+}
+
+nav ul {
+  padding-left: 0;
+  padding-right: 15px;
+}
+
+nav #navRight {
+  text-align: right;
+}
+
+nav #navLeft {
+  width: 65%;
+}
+
+nav #navLeft a {
+  margin: 0 45px;
+  font-size: 27px;
+}
+
+nav #navRight ul li {
+  display: inline-block;
+  margin: 0 18px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
