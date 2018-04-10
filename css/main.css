@@ -1,10 +1,11 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: 'Quicksand', sans-serif;
 }
 
 nav {
-  background-color: #FE7E00;
+  background-color: #FF8C00;
   padding: 10px 5px;
 }
 
@@ -14,7 +15,8 @@ nav div {
 
 nav img {
   width: 30px;
-  fill: white;
+  margin-bottom: -5px;
+  filter: invert(100%);
 }
 
 span {
@@ -50,11 +52,19 @@ nav a {
   text-decoration: none;
 }
 
+span.trademark {
+  font-weight: 400;
+  font-size: 15px;
+  top: -9px;
+  position: relative;
+}
+
 div#search {
   text-align: right;
 }
 
 #search input {
+  width: 200px;
   padding: 15px;
   background-color: #F0F0EF;
   border: none;
@@ -64,7 +74,7 @@ div#search {
 
 #search .svg-inline--fa {
   position: relative;
-  right: -145px;
+  right: -215px;
   color: #C5C5C7;
 }
 
@@ -72,20 +82,31 @@ div#search {
   color: #C5C5C7;
 }
 
- #left,
+#left,
 #right {
   display: inline-block;
   width: 30%;
+  margin-top: 20px;
+  margin-left: 150px;
 }
 
 #left img {
-  width: 100%;
+  width: 85%;
+  margin-left: 65px;
+  /* box-shadow:
+      0 0 0 50px white inset; */
+}
+
+#right {
+
 }
 
 #right h5 {
   margin: 0 15px;
   font-size: 35px;
   font-weight: 400;
+  width: 530px;
+  color: #FF8C00;
 }
 
 #right div {
@@ -94,7 +115,7 @@ div#search {
 }
 
 #right span {
-  color: #FE7E00;
+  color: #FF8C00;
 }
 
 #right span.teal{
@@ -102,9 +123,11 @@ div#search {
 }
 
 button {
-  background-color: #FE7E00;
+  background-color: #FF8C00;
   color: #fff;
+  font-size: 13px;
   border: none;
+  border-radius: 2px;
   padding: 15px 20px;
   width: 42%;
   margin: 0 3%;
@@ -115,7 +138,21 @@ button.teal {
 }
 
 footer {
-  margin-top: 100px;
+  margin-top: 130px;
   background-color: #7BCBC9;
   height: 150px;
 }
+
+
+/*   MEDIA QUERRIES    */
+/* @media (max-width: 415px) {
+	.orange {
+		padding-right: 35%;
+	}
+}
+
+@media (max-width: 380px) {
+	.orange {
+		padding-right: 28%;
+	}
+} */
