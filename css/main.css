@@ -12,12 +12,22 @@ nav div {
   display: inline-block;
 }
 
+nav img {
+  width: 30px;
+  fill: white;
+}
+
+span {
+  font-weight: bold;
+}
+
 nav ul {
   padding-left: 0;
   padding-right: 15px;
 }
 
 nav #navRight {
+  /* width: 70%; */
   text-align: right;
 }
 
@@ -26,7 +36,7 @@ nav #navLeft {
 }
 
 nav #navLeft a {
-  margin: 0 45px;
+  margin-left: 45px;
   font-size: 27px;
 }
 
@@ -38,4 +48,74 @@ nav #navRight ul li {
 nav a {
   color: #fff;
   text-decoration: none;
+}
+
+div#search {
+  text-align: right;
+}
+
+#search input {
+  padding: 15px;
+  background-color: #F0F0EF;
+  border: none;
+  margin-right: 35px;
+  margin-top: 10px;
+}
+
+#search .svg-inline--fa {
+  position: relative;
+  right: -145px;
+  color: #C5C5C7;
+}
+
+#search input::placeholder {
+  color: #C5C5C7;
+}
+
+ #left,
+#right {
+  display: inline-block;
+  width: 30%;
+}
+
+#left img {
+  width: 100%;
+}
+
+#right h5 {
+  margin: 0 15px;
+  font-size: 35px;
+  font-weight: 400;
+}
+
+#right div {
+  text-align: center;
+  padding: 45px 0;
+}
+
+#right span {
+  color: #FE7E00;
+}
+
+#right span.teal{
+  color: #7BCBC9;
+}
+
+button {
+  background-color: #FE7E00;
+  color: #fff;
+  border: none;
+  padding: 15px 20px;
+  width: 42%;
+  margin: 0 3%;
+}
+
+button.teal {
+  background-color: #7BCBC9;
+}
+
+footer {
+  margin-top: 100px;
+  background-color: #7BCBC9;
+  height: 150px;
 }
